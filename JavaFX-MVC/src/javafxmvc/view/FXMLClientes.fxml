@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="378.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="378.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxmvc.controller.ClientesController">
    <children>
       <SplitPane dividerPositions="0.29797979797979796" layoutY="148.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <items>
@@ -58,11 +58,11 @@
                         <Label text="Código" />
                         <Label text="Nome" GridPane.rowIndex="1" />
                         <Label text="Telefone" GridPane.rowIndex="3" />
-                        <Label fx:id="lblCliFone" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                        <Label fx:id="lblCliNome" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                        <Label fx:id="lblCliCodigo" text="Label" GridPane.columnIndex="1" />
+                        <Label fx:id="lblCliFone" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Label fx:id="lblCliNome" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Label fx:id="lblCliCodigo" GridPane.columnIndex="1" />
                         <Label text="CPF" GridPane.rowIndex="2" />
-                        <Label fx:id="lblCliCPF" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Label fx:id="lblCliCPF" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                      </children>
                   </GridPane>
                </children>

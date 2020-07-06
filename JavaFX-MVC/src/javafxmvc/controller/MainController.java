@@ -10,7 +10,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.MenuItem;
 import javafx.scene.layout.AnchorPane;
 
-public class FXMLVboxMainController implements Initializable {
+public class MainController implements Initializable {
 
 	@FXML
 	MenuItem mitCadastrosClientes;
@@ -33,7 +33,7 @@ public class FXMLVboxMainController implements Initializable {
 	@FXML
 	public void handleMenuItemCadastroClientes() throws IOException {
 		AnchorPane a = (AnchorPane) FXMLLoader
-				.load(getClass().getResource("/javafxmvc/view/FXMLAnchorpaneCadastroClientes.fxml"));
+				.load(getClass().getResource("/javafxmvc/view/FXMLClientes.fxml"));
 		anchorpane.getChildren().setAll(a);
 	}
 
