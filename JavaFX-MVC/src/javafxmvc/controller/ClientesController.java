@@ -116,6 +116,7 @@ public class ClientesController implements Initializable {
     public void handleButtonAlterar() throws IOException {
         Cliente cliente = tblCliente.getSelectionModel().getSelectedItem();
         if (cliente != null) {
+        	System.out.println("Inserir");
             boolean buttonConfirmarClicked = showFXMLDialogClientes(cliente);
             if (buttonConfirmarClicked) {
                 clienteDAO.alterar(cliente);

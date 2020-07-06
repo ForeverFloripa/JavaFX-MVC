@@ -33,9 +33,9 @@
                <children>
                   <Group layoutX="102.0" layoutY="314.0" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0">
                      <children>
-                        <Button fx:id="btnInserir" mnemonicParsing="false" prefWidth="64.0" text="Inserir" />
-                        <Button fx:id="btnRemover" layoutX="147.0" mnemonicParsing="false" prefWidth="64.0" text="Remover" />
-                        <Button fx:id="btnAlterar" layoutX="72.0" mnemonicParsing="false" prefWidth="64.0" text="Alterar" />
+                        <Button fx:id="btnInserir" mnemonicParsing="false" onAction="#handleButtonInserir" prefWidth="64.0" text="Inserir" />
+                        <Button fx:id="btnRemover" layoutX="147.0" mnemonicParsing="false" onAction="#handleButtonRemover" prefWidth="64.0" text="Remover" />
+                        <Button fx:id="btnAlterar" layoutX="72.0" mnemonicParsing="false" onAction="#handleButtonAlterar" prefWidth="64.0" text="Alterar" />
                      </children>
                   </Group>
                   <Label layoutX="128.0" layoutY="14.0" text="Detalhes do Cliente">
