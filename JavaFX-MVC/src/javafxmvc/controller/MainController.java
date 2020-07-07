@@ -25,7 +25,6 @@ public class MainController implements Initializable {
 
 	@Override
 	public void initialize(URL arg0, ResourceBundle arg1) {
-		// TODO Auto-generated method stub
 
 	}
 
@@ -40,12 +39,19 @@ public class MainController implements Initializable {
 		AnchorPane a = (AnchorPane) FXMLLoader.load(getClass().getResource("/javafxmvc/view/FXMLVendas.fxml"));
 		anchorpane.getChildren().setAll(a);
 	}
-	 @FXML
-	    public void handleMenuItemGraficosVendasPorMes() throws IOException {
-	        AnchorPane a = (AnchorPane) FXMLLoader.load(getClass().getResource("/javafxmvc/view/FXMLGraficoVendasMes.fxml"));
-	        anchorpane.getChildren().setAll(a);
-	    }
 
-	
-	
+	@FXML
+	public void handleMenuItemGraficosVendasPorMes() throws IOException {
+		AnchorPane a = (AnchorPane) FXMLLoader
+				.load(getClass().getResource("/javafxmvc/view/FXMLGraficoVendasMes.fxml"));
+		anchorpane.getChildren().setAll(a);
+	}
+
+	@FXML
+	public void handleMenuItemRelatoriosQuantidadeProdutos() throws IOException {
+		AnchorPane a = (AnchorPane) FXMLLoader
+				.load(getClass().getResource("/javafxmvc/view/FXMLRelatorio.fxml"));
+		anchorpane.getChildren().setAll(a);
+	}
+
 }
