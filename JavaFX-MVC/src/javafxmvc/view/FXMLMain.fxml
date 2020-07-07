@@ -19,12 +19,12 @@
           </Menu>
           <Menu mnemonicParsing="false" text="Processos">
             <items>
-              <MenuItem fx:id="mitProcessosVendas" mnemonicParsing="false" text="Vendas" />
+              <MenuItem fx:id="mitProcessosVendas" mnemonicParsing="false" onAction="#handleMIVendas" text="Vendas" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Gráficos">
             <items>
-              <MenuItem fx:id="mitGraficosVendasMes" mnemonicParsing="false" text="Vendas por mês" />
+              <MenuItem fx:id="mitGraficosVendasMes" mnemonicParsing="false" onAction="#handleMenuItemGraficosVendasPorMes" text="Vendas por mês" />
             </items>
           </Menu>
             <Menu mnemonicParsing="false" text="Relatórios">
